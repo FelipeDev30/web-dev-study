@@ -62,5 +62,31 @@ figure.foto-legenda figcaption:hover {
     opacity: 1;
 }
 
-/* Menu Principal */
+/* Formatação Menu Principal */
 
+.menu-principal{
+    display: block;
+}
+
+.menu-principal h1{
+    display: none;
+}
+
+.menu-principal ul{
+    text-transform: uppercase;
+    position: absolute;
+    top: -20px;
+    left: 300px;
+}
+
+.menu-principal li{
+    display: inline-block;
+    background-color: #dddddd;
+    padding: 0.625rem;
+    margin: 0.125rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s ease-in-out;
+}
+.menu-principal li:hover{
+    background-color: #606060;
+}
